@@ -1,0 +1,237 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: rgb(22,17,98);
+background: linear-gradient(141deg, rgba(22,17,98,1) 0%, rgba(16,15,24,1) 100%);
+
+}
+
+.all{
+width: 80%;
+
+display: flex;
+float: center;
+margin: auto;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.top{
+    position: fixed;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    background:rgb(49, 48, 59);
+    width: 80%;
+    height: 100px;
+    margin: 0 0px 0px 0px;
+    padding: 1px;
+    display: flex;
+    border-radius: 0px 0px 40px 40px;
+    
+}
+
+.top ul {
+
+float: center;
+width: 100%;
+list-style: none;
+display: table;
+}
+
+
+
+.top li a {
+color: rgb(210, 211, 255);
+display: table-cell;
+float: left;
+text-align: center;
+text-decoration: none;
+padding: 20px;
+margin: 2px;
+background: rgb(148, 143, 203);
+border-radius: 16px;
+width: 16%;
+}
+
+.top li a:hover{
+background: rgb(55, 49, 124);
+border-radius: 16px;
+}
+
+.top a{
+    display: block;
+}
+
+.main{
+
+    height: auto;
+    margin-top: 100px;
+    width: 100%;
+    float: left;
+    display: flex;
+    font-family: sans-serif;
+    font-size: large;
+    margin-bottom: 150px;
+}
+.left{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(177, 170, 248);
+    border-radius: 40px 40px 40px 40px;
+    margin: 10px;
+    padding: 50px;
+}
+.right{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(105, 99, 163);
+    border-radius: 40px 40px 40px 40px;
+    margin: 10px;
+    padding: 50px;
+}
+.right2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(105, 99, 163);
+    border-radius: 40px 40px 40px 40px;
+    margin: 10px;
+    padding: 50px;
+}
+
+.bot{
+    background:rgb(49, 48, 59);
+    height: 100px;
+    width: 100%;
+    border-radius: 40px 40px 0px 0px;
+    font-family: sans-serif;
+    bottom: 0;
+    text-align: center;
+    color:rgb(102, 102, 102);
+}
+h2{
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.l{
+    font-size: larger;
+}
+
+h3{
+    font-size: 70px;
+    text-align: center;
+    margin: 40px;
+}
+
+img{
+    width: 47%;
+    float: center;
+    margin: 1%;
+    box-shadow:3px 3px 6px black;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-sizing: border-box;
+    background: rgba(123, 92, 255, 0.51);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+  }
+textarea{
+    height: 200px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background: rgba(123, 92, 255, 0.51);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+
+}
+
+button{
+    width: 50%;
+    height: 100px;
+    margin: 0 25%;
+    background:rgb(49, 48, 59);
+    color: rgb(210, 211, 255);
+    border: 0;
+    border-radius: 40px;
+    font-size: xx-large;
+
+}
+
+button:hover{
+    background: rgb(55, 49, 124);
+}
+
+#scroll-top {
+    position: fixed;
+    display: flex;
+    right: 10px;
+    margin-right: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    align-items: right;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s;
+}
+
+#scroll-top.active {
+    bottom: 10px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+
+.left li {
+    text-align: center;
+    display: table;
+    text-decoration: none;
+    padding: 30px;
+    margin: 5px;
+    background: rgb(148, 143, 203);
+    border-radius: 16px;
+    }
+
+#zoomin{
+
+    display: flexbox;
+    height: 50px;
+    float: left;
+    align-self: auto;
+    }
+
+#zoomout{
+    display: flexbox;
+    height: 50px;
+    float: left;
+    align-self: auto;
+        }
+#but{
+        height: 100%;
+        width: 80%;
+        background-color: rgb(105, 99, 163);
+        border-radius: 40px 40px 40px 40px;
+        margin: 10px;
+        padding: 50px;
+        float: left;
+        display: flex;
+}

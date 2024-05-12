@@ -1,0 +1,6 @@
+<div id="ajax">
+    <h2>Ajax</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos debitis maiores, vitae et velit aut est, quaerat atque ipsum deserunt exercitationem. Delectus cupiditate adipisci quidem, eveniet debitis tempora at officia. Ducimus et placeat facere officiis dolores quisquam iure aut maxime aspernatur corrupti provident explicabo dignissimos incidunt, nesciunt odio, qui excepturi ut voluptates, cupiditate sit! Explicabo officiis pariatur, quia aut consequatur id saepe obcaecati repellat. Nihil delectus iusto aliquid labore quod, perferendis eos, officia modi, repellat ex molestias atque deserunt explicabo suscipit? Aspernatur magni ea, ex eum ipsam voluptas unde laborum libero non facere quas ut quasi minima consequuntur nam dolor perspiciatis fugit odit incidunt praesentium magnam ipsum?
+    </p>
+</div>
